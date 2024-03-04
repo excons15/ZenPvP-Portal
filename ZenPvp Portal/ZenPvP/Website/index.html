@@ -1,0 +1,88 @@
+<!-- Proudly coded by Billy (https://bybilly.uk) -->
+<!-- Version: 1.9.2 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Info meta tags, important for social media + SEO -->
+	<title>ZenPvP | Portal</title>
+	<meta name="description" content="ZenPvP is a new and awesome minecraft server with lots of different gamemodes. You can join with the IP play.ZenPvP.net.">
+	<meta name="theme-color" content="#C855D6">
+	<meta property="og:title" content="ZenPvP">
+	<meta property="og:site_name" content="ZenPvP">
+	<meta property="og:description" content="ZenPvP is a new and awesome minecraft server with lots of different gamemodes. You can join with the IP play.ZenPvP.net.">
+	<meta property="og:image" content="img/background.png">
+	<meta property="og:url" content="www.ZenPvP.net">
+	<meta name="twitter:card" content="summary_large_image">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="icon" type="image/x-icon" href="../Website/zen logo.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+	<div class="container">
+		<div class="logo">
+          	<a href="https://www.ZenPvP.net/" class="logo">
+			<!-- In the img folder, upload your logo -->
+			<!-- Make sure you name it 'logo.png' or update the code below -->
+			<img src="img/512x512-logo.png" alt="ZenPvP logo">
+		</div>
+
+		<div class="items">
+			<!-- Replace # with your discord URL-->
+			<a href="https://discord.gg/zenpvp" target="_Blank" class="item Discord">
+			<div>
+				<img src="img/Discord.png" alt="Minecraft discord icon" class="img">
+				<p class="subtitle">Chat on our</p>
+				<p class="title">Discord</p>
+			</div>
+			</a>
+
+			<!-- Replace # with your store URL -->
+			<a href="https://store.zenpvp.net/" target="_Blank" class="item store">
+			<div>
+				<img src="img/store.png" alt="Minecraft store icon" class="img">
+				<p class="subtitle">Donate on our</p>
+				<p class="title">Store</p>
+			</div>
+			</a>
+
+			<!-- Replace # with your vote URL -->
+			<a href="vote.html" class="item vote">
+			<div>
+				<img src="img/vote.png" alt="Minecraft voting icon" class="img">
+				<p class="subtitle">Support us by</p>
+				<p class="title">Voting</p>
+			</div>
+			</a>
+
+			<!-- Replace # with your store URL -->
+			<a href="https://www.ZenPvP.net/rules" target="_Blank" class="item rules">
+			<div>
+				<img src="img/Rules.png" alt="Minecraft rules icon" class="img">
+				<p class="subtitle">Read our rules</p>
+				<p class="title">Rules</p>
+			</div>
+			</a>
+
+		</div>
+
+		<div class="playercount" onclick="copyIP()">
+			<!-- Replace play.cubecraft.net with your server IP address -->
+			<!-- Do it on both line 66 and line 67 -->
+			<!-- Please set both your IP and port -->
+			<p>Join <span class="sip" data-ip="play.zenpvp.net" data-port="25565">
+			</span> other players on <span class="ip">play.zenpvp.net</span></p>
+		</div>
+        <div id="snackbar"><img src="img/checkmark.svg" alt=""> IP Copied Successfully</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="js/fireflys.js" type="text/javascript"></script>
+	<script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>
